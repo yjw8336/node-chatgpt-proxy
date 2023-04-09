@@ -1,7 +1,7 @@
 FROM node:18-bullseye-slim
 
 # 设置环境变量，支持部署到Railway
-ENV PORT=80
+ENV PORT=3000
 ENV RAILWAY=true
 
 RUN apt-get update && \
